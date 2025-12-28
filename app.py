@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Home route
 @app.route("/")
 def home():
-    return "Flask App is Running 🚀"
+    return "Flask to App is Running 🚀"
 
 # Sample GET API
 @app.route("/hello", methods=["GET"])
